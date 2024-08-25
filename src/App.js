@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Star, MapPin, Clock, ChevronDown, Search } from 'lucide-react';
+import { Search } from 'lucide-react';
 import PaymentMode from './components/paymentMode';
 import DealerInfo from './components/dealerInfo';
 import Reviews from './components/reviews';
