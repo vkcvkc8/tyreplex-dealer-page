@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+.badge-style{
+  position: absolute;
+  right: 12.5px;
+  top: 0;
+}
+
+.bg-tyre {
+  background-image: url("https://cdn.tyreplex.net/uploads/images/tyre_model/original/apollo/amazer-4g-life/img_main.png?v=2385909&tr=w-178,q-78,q-60");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 150px 50px;
+}
+
+/* Ensure that dropdowns are hidden by default */
+.dropdown-menu {
+  display: none;
+}
+
+/* Show dropdown on hover */
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+/* Optional: adjust dropdown positioning */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+}
