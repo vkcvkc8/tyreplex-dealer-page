@@ -62,7 +62,7 @@ const Header = () => {
           <ul className="navbar-nav mx-auto fw-bold">
             {Object.keys(dropdownItems).map(key => (
               <li className="nav-item dropdown" key={key}>
-                <a className="nav-link dropdown-toggle text-capitalize" href="#" role="button">{key.replace(/([A-Z])/g, ' $1').trim()}</a>
+                <a className="nav-link dropdown-toggle text-capitalize" href="www.google.com" role="button">{key.replace(/([A-Z])/g, ' $1').trim()}</a>
                 <DropdownMenu items={dropdownItems[key]} />
               </li>
             ))}

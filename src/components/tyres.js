@@ -53,9 +53,9 @@ const Tyres = () => {
               Filter By <ChevronDown size={16} />
             </button>
             <ul className="dropdown-menu" aria-labelledby="filterDropdown">
-              <li><a className="dropdown-item" href="#">Most Popular</a></li>
-              <li><a className="dropdown-item" href="#">Price: Low to High</a></li>
-              <li><a className="dropdown-item" href="#">Price: High to Low</a></li>
+              <li><a className="dropdown-item" href="www.google.com">Most Popular</a></li>
+              <li><a className="dropdown-item" href="www.google.com">Price: Low to High</a></li>
+              <li><a className="dropdown-item" href="www.google.com">Price: High to Low</a></li>
             </ul>
           </div>
           <button className="btn btn-outline-primary">Advanced</button>
