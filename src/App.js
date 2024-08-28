@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Search } from 'lucide-react';
 import PaymentMode from './components/paymentMode';
 import DealerInfo from './components/dealerInfo';
